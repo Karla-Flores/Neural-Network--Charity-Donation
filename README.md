@@ -81,4 +81,6 @@ The results for this model were:
 </ul>
 <h3>Summary</h3>
 <hr>
-<p align = 'justify'></>
+<p align = 'justify'>Any model was unable to perform a 75% accuracy rate.  The graphic of the first and second models shows a region where the training error and validation error diverge, with the training error staying low and the validation error increasing due to overfitting the data and learning too much from the training examples. The validation error remains high because our model cannot generalize from the training data to new data.</p>
+
+<p align = 'justify'>The third model had a loss of 56%, an accuracy of 73%, and a sensitivity of 77%. This model had a lower loss and sensitivity than the others, but its loss graphic shows a good fit with a training and validation loss that decreases to the point of stability with a minimal gap between the two final loss values.</p>

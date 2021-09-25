@@ -14,10 +14,17 @@
 </ul>
 <h4>Model Evaluation 1</h4>
 <ul>
-  <li>Compiling, Training, and Evaluating the Model</li>
-  <p align = 'justify'></p>
-    <img src='https://github.com/Karla-Flores/Neural-Network--Charity-Donation/blob/main/ScreenShots/M1.png'>
-  <li>Graphics </li>
+  <li><strong>Compiling, Training, and Evaluating the Model</strong></li>
+  <p align = 'justify'>The attempt at compiling a neural network consisted of layers of 80 neurons and the second one of 30; both layers had relu activation functions.In addition, the output layer had a sigmoid activation function. The assembled model had the Adam optimization algorithm, and the fitting model had a validation split of 0.15 and 100 epochs.</p>
+  <img src='https://github.com/Karla-Flores/Neural-Network--Charity-Donation/blob/main/ScreenShots/M1.png'>
+The results for this model were:
+<ul>
+<li>Loss: 0.5653</li>
+<li>Accuracy: 0.7291</li>
+<li>Recall: 0.7826</li>
+</ul>
+  <br>
+  <li><strong>Graphics</strong></li>
   <table>
     <tbody>
      <tr>
@@ -30,9 +37,17 @@
 <h3>Model Evaluation 2</h3>
 <hr>
 <ul>
-  <li>Compiling, Training, and Evaluating the Model</li>
+  <li><strong>Compiling, Training, and Evaluating the Model</strong></li>
+  <p align = 'justify'>The attempt at compiling a neural network consisted of layers of 1450 neurons and the second one of 80; both layers had relu activation functions.In addition, the output layer had a sigmoid activation function. The assembled model had the Adam optimization algorithm, and the fitting  model had a validation split of 0.15 and 100 epochs.</p>
       <img src='https://github.com/Karla-Flores/Neural-Network--Charity-Donation/blob/main/ScreenShots/M2.png'>
-  <li>Graphics </li>
+  The results for this model were:
+<ul>
+<li>Loss: 0.5760</li>
+<li>Accuracy: 0.7318</li>
+<li>Recall: 0.8021</li>
+</ul>
+  <br>
+  <li><strong>Graphics</strong></li>
     <table>
     <tbody>
      <tr>
@@ -45,9 +60,17 @@
 <h3>Model Evaluation 3</h3>
 <hr>
 <ul>
-  <li>Compiling, Training, and Evaluating the Model</li>
+  <li><strong>Compiling, Training, and Evaluating the Model</strong></li>
+  <p align = 'justify'>The attempt at compiling a neural network consisted of layers of 3 neurons, the second one of 15 and the third one of 3; all layers had relu activation functions. In addition, the output layer had a sigmoid activation function. The assembled model had the Adam optimization algorithm, and the fittin mode
+    The results for this model were:
+<ul>
+<li>Loss: 0.5613</li>
+<li>Accuracy: 0.7255</li>
+<li>Recall: 0.7732</li>
+</ul>l had a validation split of 0.15 and 100 epochs.</p>
       <img src='https://github.com/Karla-Flores/Neural-Network--Charity-Donation/blob/main/ScreenShots/M3.png'>
-  <li>Graphics </li>
+  <br>
+  <li><strong>Graphics</strong></li>
     <table>
     <tbody>
      <tr>
